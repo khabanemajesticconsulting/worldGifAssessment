@@ -1,4 +1,4 @@
 package com.khabane.assessment;
 
-public class searchGifs {
+public class searchGifsTest {
 }

@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import static org.junit.Assert.assertTrue;
 
-public class viewFavoriteImages {
+public class viewFavoriteImagesTest {
     static WebDriver driver;
 
     @BeforeClass

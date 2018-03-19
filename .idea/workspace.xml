@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa12d8c6-8622-4e66-a825-aa9aff50fb28" name="Default" comment="" />
+    <list default="true" id="fa12d8c6-8622-4e66-a825-aa9aff50fb28" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/khabane/assessment/searchGifs.java" afterPath="$PROJECT_DIR$/src/test/java/com/khabane/assessment/searchGifsTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewAnimalsCategory.java" afterPath="$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewAnimalsCategoryTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewFavoriteImages.java" afterPath="$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewFavoriteImagesTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,40 +60,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewFavoriteImages.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewFavoriteImages.java">
+      <file leaf-file-name="viewFavoriteImagesTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewFavoriteImagesTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="67">
               <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchGifs.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/khabane/assessment/searchGifs.java">
+      <file leaf-file-name="searchGifsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/khabane/assessment/searchGifsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewAnimalsCategory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewAnimalsCategory.java">
+      <file leaf-file-name="viewAnimalsCategoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewAnimalsCategoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
               <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewFunnyCategoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewAnimalsCategory.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewFavoriteImages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/khabane/assessment/searchGifsTest.java" />
       </list>
     </option>
   </component>
@@ -231,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.viewFavoriteImages">
+  <component name="RunManager" selected="JUnit.viewFavoriteImagesTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -272,7 +277,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="viewFavoriteImages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="viewFavoriteImagesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.khabane.assessment.*" />
@@ -283,7 +288,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.khabane.assessment" />
-      <option name="MAIN_CLASS_NAME" value="com.khabane.assessment.viewFavoriteImages" />
+      <option name="MAIN_CLASS_NAME" value="com.khabane.assessment.viewFavoriteImagesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -297,7 +302,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="viewFavoriteImages.favoriteImages1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="viewFavoriteImagesTest.favoriteImages1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.khabane.assessment.*" />
@@ -308,7 +313,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.khabane.assessment" />
-      <option name="MAIN_CLASS_NAME" value="com.khabane.assessment.viewFavoriteImages" />
+      <option name="MAIN_CLASS_NAME" value="com.khabane.assessment.viewFavoriteImagesTest" />
       <option name="METHOD_NAME" value="favoriteImages1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -441,13 +446,13 @@
       <item index="0" class="java.lang.String" itemvalue="JUnit.viewImagesTest.viewImage2" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.viewImagesTest.viewImage3" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.viewImagesTest.viewImage4" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.viewFavoriteImages.favoriteImages1" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.viewFavoriteImages" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.viewFavoriteImagesTest.favoriteImages1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.viewFavoriteImagesTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.viewFavoriteImages" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.viewFavoriteImages.favoriteImages1" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.viewFavoriteImagesTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.viewFavoriteImagesTest.favoriteImages1" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.viewImagesTest.viewImage4" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.viewImagesTest.viewImage3" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.viewImagesTest.viewImage2" />
@@ -469,7 +474,7 @@
       <updated>1521191216387</updated>
       <workItem from="1521191218050" duration="1458000" />
       <workItem from="1521198023752" duration="2342000" />
-      <workItem from="1521442959131" duration="12489000" />
+      <workItem from="1521442959131" duration="13097000" />
     </task>
     <servers />
   </component>
@@ -506,11 +511,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16289000" />
+    <option name="totallyTimeSpent" value="16897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1700" y="112" width="1440" height="801" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -525,7 +529,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36695278" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36695278" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -644,35 +648,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewAnimalsCategory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewAnimalsCategoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewFavoriteImages.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/khabane/assessment/viewFavoriteImagesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/khabane/assessment/searchGifs.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/khabane/assessment/searchGifsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
