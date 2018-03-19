@@ -10,7 +10,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class viewFunnyCategoryTest {
+public class viewAnimalsCategory {
+
     static WebDriver driver;
 
     @BeforeClass
@@ -26,10 +27,11 @@ public class viewFunnyCategoryTest {
         WebElement categoriesLink = driver.findElement(By.linkText("Categories"));
         categoriesLink.click();
 
-        WebElement funnyBtn = driver.findElement(By.linkText("Funny"));
-        funnyBtn.click();
+        WebElement animalsBtn = driver.findElement(By.linkText("Animals"));
+        animalsBtn.click();
 
-        assertThat(driver.getTitle(), is("giflib | Funny"));
+        assertThat(driver.getTitle(), is("giflib | Animals"));
 
     }
 }
+
