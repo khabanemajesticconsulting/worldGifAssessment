@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import static org.junit.Assert.assertTrue;
 
 public class viewFavoriteImagesTest {
@@ -14,24 +14,21 @@ public class viewFavoriteImagesTest {
 
     @BeforeClass
     public static void setupTest() {
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
     }
 
     @Test
     public void favoriteImages1() throws InterruptedException {
         //Navigate to assessment
-        driver.navigate().to("http://165.227.125.237:8190/");
-        driver.manage().window().maximize();
+        driver.navigate().to("");
 
-        //click on the favorites button
-
-        //assert current url
+        //please assert current url
 
         WebElement favorites = driver.findElement(By.linkText("Favorites"));
 
         favorites.click();
 
-        assertTrue(driver.getPageSource().contains("There was an unexpected error (type=Not Found, status=404)."));
+        //assertTrue(driver.getPageSource().contains("There was an expected error (type=Not Found, status=500)."));
 
         Thread.sleep(2000);
     }

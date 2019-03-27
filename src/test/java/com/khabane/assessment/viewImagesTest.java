@@ -7,7 +7,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -17,14 +16,13 @@ public class viewImagesTest {
 
     @BeforeClass
     public static void setupTest() {
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
     }
 
     @Test
     public void viewImage1(){
         //Navigate to assessment
-        driver.navigate().to("http://165.227.125.237:8190/");
-        driver.manage().window().maximize();
+        driver.navigate().to("http://ec2-3-9-17-39.eu-west-2.compute.amazonaws.com:8080/");
 
         WebElement image1 = driver.findElement(By.xpath("//img[@ src='/gifs/image1.gif']"));
 
@@ -38,73 +36,15 @@ public class viewImagesTest {
     @Test
     public void viewImage2(){
         //Navigate to assessment
-        driver.navigate().to("http://165.227.125.237:8190/");
+        driver.navigate().to("http://ec2-3-9-17-39.eu-west-2.compute.amazonaws.com:8080/");
         driver.manage().window().maximize();
 
-        WebElement image2 = driver.findElement(By.xpath("//img[@ src='/gifs/image2.gif']"));
+        WebElement image2 = driver.findElement(By.xpath(""));
 
         image2.click();
 
-        assertThat(driver.getTitle(), is("giflib | image2"));
+        assertThat(driver.getTitle(), is(""));
 
     }
-
-    @Test
-    public void viewImage3(){
-        driver.navigate().to("http://165.227.125.237:8190/");
-        driver.manage().window().maximize();
-
-        WebElement image3 = driver.findElement(By.xpath("//img[@ src='/gifs/image3.gif']"));
-
-        image3.click();
-
-        assertThat(driver.getTitle(), is("giflib | image3"));
-
-    }
-
-    @Test
-    public void viewImage4(){
-        driver.navigate().to("http://165.227.125.237:8190/");
-        driver.manage().window().maximize();
-
-        WebElement image4 = driver.findElement(By.xpath("//img[@ src='/gifs/image4.gif']"));
-
-        image4.click();
-
-        assertThat(driver.getTitle(), is("giflib | image4"));
-
-    }
-
-    @Test
-    public void viewImage5(){
-        driver.navigate().to("http://165.227.125.237:8190/");
-        driver.manage().window().maximize();
-
-        WebElement image5 = driver.findElement(By.xpath("//img[@ src='/gifs/image5.gif']"));
-
-        image5.click();
-
-        assertThat(driver.getTitle(), is("giflib | image5"));
-
-    }
-
-    @Test
-    public void viewImage6(){
-        driver.navigate().to("http://165.227.125.237:8190/");
-        driver.manage().window().maximize();
-
-        WebElement image6 = driver.findElement(By.xpath("//img[@ src='/gifs/image6.gif']"));
-
-        image6.click();
-
-        assertThat(driver.getTitle(), is("giflib | image6"));
-
-    }
-
-    @AfterClass
-    public static void quitDriver(){
-        driver.quit();
-    }
-
-
+    //create tests for all the other images
 }

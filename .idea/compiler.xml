@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kmcwebsite-grad" />
+        <module name="worldGifApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="kmcwebsite-grad" target="1.8" />
+      <module name="worldGifApp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

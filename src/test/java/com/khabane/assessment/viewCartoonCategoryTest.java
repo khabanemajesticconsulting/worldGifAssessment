@@ -11,25 +11,5 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class viewCartoonCategoryTest {
-    static WebDriver driver;
 
-    @BeforeClass
-    public static void setupTest() {
-        driver = new FirefoxDriver();
-    }
-
-    @Test
-    public void cartoonCategory(){
-        driver.navigate().to("http://165.227.125.237:8190/");
-        driver.manage().window().maximize();
-
-        WebElement categoriesLink = driver.findElement(By.linkText("Categories"));
-        categoriesLink.click();
-
-        WebElement cartoonsBtn = driver.findElement(By.linkText("Cartoons"));
-        cartoonsBtn.click();
-
-        assertThat(driver.getTitle(), is("giflib | Cartoons"));
-
-    }
 }
